@@ -1,0 +1,199 @@
+/* Basic CSS for the navigation bar */
+body {
+    background-image:url('https://www.gannett-cdn.com/-mm-/7a0b810ce09035677c76fbc7695dac4e39dc1726/c=0-212-4227-2600/local/-/media/2018/10/12/USATODAY/USATODAY/636749449410490929-1.-Aerial-of-Diversey-Harbor-Credit-City-of-Chicago-Photo-Courtesy-of-Choose-Chicago.jpg?width=3200&height=1680&fit=crop');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #1e4cb194, rgb(0 75 149 / 0%));
+    z-index: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logoname {
+    font-size:25px;
+    font-weight:bolder;
+    font-style: italic;
+    color:white;
+}
+#search {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:white;
+}
+#conditionInput {
+    border: 1px solid white;
+    width: 350px;
+}
+.btn-gr {
+    margin:0 7px 0 0 ;
+}
+.btn {
+    padding: 5px 14px 5px 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.344);
+    /* background-color: transparent; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-around;
+    z-index:99;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+    margin:0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  a:hover {
+    color: white;
+    text-decoration:none;
+  }
+  li:hover {
+    background-color:rgba(255, 255, 255, 0.508);
+    padding: 5px;
+    border-radius:5px;
+    border:1px solid rgba(0, 0, 0, 0.07);
+  }
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  /* Basic CSS for the form elements */
+  body {
+    font-family: Arial, sans-serif;
+    /* margin: 20px; */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  
+  
+  /* Basic CSS for the report section */
+  h2 {
+    margin-top: 30px;
+  }
+
+.content {
+    /* margin-top:5%; */
+}
+
+#social {
+    width:5%;
+}
+.intro-content {
+    margin-top: 5%;
+    width:70px;
+    color:white;
+    margin-right: 15%;
+}
+.intro-content #intro-title {
+    
+    font-size: 455%;
+    line-height: 1.1;
+    font-weight: bolder;
+}
+.intro-content #intro {
+    margin: 0 4% 10% 4%;
+}
+.intro-btn {
+    justify-content: center;
+}
+
+.search-results {
+    margin: 1%;
+    overflow-y: scroll;
+    /* overflow: hidden; */
+    max-height: 700px;
+    box-shadow: 0px 0px 10px 7px rgb(0 0 0 / 35%);
+    border-radius: 8px;
+}
+.search-results::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.search-results::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5); /* Scrollbar color */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid transparent; /* Optional: Space around scrollbar */
+    background-clip: padding-box; /* Ensures the border is outside */
+}
+
+.search-results::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
+}
+
+.search-results::-webkit-scrollbar-track {
+    background-color: rgba(200, 200, 200, 0.3); /* Track color */
+    border-radius: 10px; /* Optional: Rounded corners for track */
+}
+
+.res-component {
+    border-radius: 8px;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    z-index: 10;
+}
+.img-show {
+    width: 100%; 
+    height: 30%; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+.search-details {
+    margin:4%;
+    margin-bottom: 2%;
+    text-align: justify;
+}
+.details {
+    margin:0;
+}
+
+.search-title {
+    font-weight: bolder;
+    font-size: 25px;
+}
