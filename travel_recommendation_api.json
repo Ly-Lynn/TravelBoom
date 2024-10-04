@@ -52,19 +52,19 @@
     "temples": [
       {
         "id": 1,
-        "name": "Angkor Wat, Cambodia",
+        "name": "Angkor Wat Temple, Cambodia",
         "imageUrl": "https://www.tripsavvy.com/thmb/74SaLzydFMxwf_uDPZn6TFuRERM=/4856x3237/filters:no_upscale():max_bytes(150000):strip_icc()/sunset-at-angkor-wat--siem-reap--cambodia-640432454-5c327edf46e0fb00016ccb6c.jpg",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
         "id": 2,
-        "name": "Taj Mahal, India",
+        "name": "Taj Mahal Temple, India",
         "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/CbddkFFO3OB80rRz83Iiuf-Z0FY=/1000x750/filters:no_upscale():focal(1471x1061:1472x1062)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b6/30/b630b48b-7344-4661-9264-186b70531bdc/istock-478831658.jpg",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       },
       {
         "id": 3,
-        "name": "One Pillar, Vietnam",
+        "name": "One Pillar Temple, Vietnam",
         "imageUrl": "https://localvietnam.com/wp-content/uploads/2021/08/one-pillar-pagoda-2.jpg",
         "description": "The most famous part of this architecture complex is Liên Hoa Đài (蓮花臺) means 'the lotus pedestal' which is a temple with special structure: a building laid on one pillar."
       }
@@ -72,7 +72,7 @@
     "beaches": [
       {
         "id": 1,
-        "name": "Bora Bora, French Polynesia",
+        "name": "Bora Bora Beach, French Polynesia",
         "imageUrl": "https://www.wendyperrin.com/wp-content/uploads/2020/11/Bora-Bora-French-Polynesia-dock-and-bungalow-shutterstock_361041146.jpg",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
       },
